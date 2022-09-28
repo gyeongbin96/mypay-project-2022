@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../kokoa-clone-bin/kokoa-clone-2022-bin"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MyPay"
+	}
+}

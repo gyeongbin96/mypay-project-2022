@@ -1,0 +1,493 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top-container i {
+    color: #2a54ff;
+    margin: 40px 40px;
+}
+.all-container {
+    width: 640px;
+    height: 1200px;
+    border-radius: 50px;
+    background-color: #f3f6ff;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #2a54ff;
+    border-radius: 50px;
+    margin: 10px 60px;
+}
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people i {
+    margin-top: 22px;
+    color: #f3f6ff;
+}
+.hello {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 60px;
+}
+.me {
+    margin: 50px 0px 0px 0px;
+}
+.have {
+    font-size: 23px;
+    font-weight: 200;
+    color: rgb(0, 0, 0,0.3);
+    margin: 0px 60px;
+}
+.nice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nice i {
+    margin: 0px 45px;
+    color: rgb(0, 0, 0,0.3);
+}
+.card-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+.page-icon .fa-angle-left  {
+    margin-top: 50px;
+    margin-right: 25px;
+    color: #2A54FF;
+}
+.page-icon .fa-angle-right  {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #2A54FF;
+}
+.page-icon-blue {
+    color: #f3f6ff;
+}
+.page-icon-pink {
+    color: #f3f6ff;
+    margin-left: 20px;
+}
+.card {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    background: linear-gradient(164deg, #2A54FF, #00DAFF, #001097);
+    background-size: 600%, 600%;
+    animation: GradientBackground 10s ease infinite;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 5px 5px 5px  rgb(0, 0, 0,0.3) ;
+}
+@keyframes GradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.card-top {
+    margin: 0px 300px 80px 0px;
+}
+.card-number {
+    margin: 0px 120px 30px 0px;
+    font-size: 25px;
+}
+.visa {
+    margin: 0px 0px 0px 350px;
+}
+.card-bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-bottom {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #a5b7ff;
+    margin: 20px 5px;
+}
+.card-bottom-click {
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #2a54ff;
+    margin: 20px 5px;
+}
+
+.bottom-container-container {
+    width: 550px;
+    height: 410px;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 40px;
+}
+.bottom-container {
+    display: flex;
+    justify-content: center;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    
+}
+.bottom-top {
+    width: 500px;
+    height: 70px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #f3f6ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.white {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.bottop-top-payment {
+    margin-right: 30px;
+    color: rgb(0, 0, 0,0.3);
+}
+.bottop-top-analysis {
+    margin-right: 70px;
+    color: rgb(0, 0, 0,0.3);
+}
+.account-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+}
+.account-account {
+    display: flex;
+    flex-direction: column;
+}
+.account-number {
+    font-size: 20px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0,0.3);
+    font-weight: 200;
+}
+.account-won {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0,0.3);
+    margin-left: 10px;
+}
+.account-cash {
+    font-size: 50px;
+    font-weight: 700;
+}
+.circle-three {
+    width: 8px;
+    height: 8px;
+    border-radius: 15px;
+    background-color: #2b2b2b;
+}
+.account-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2a54ff;
+}
+.circle-three {
+    margin: 5px 0px;
+}
+.circle-three-container {
+    margin-left: 20px;
+}
+.down-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.import {
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2a54ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.import-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.send {
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2a54ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.send-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.qr-pay-container {
+    display: flex;
+    justify-content: center;
+}
+.pay-qr {
+    margin-top: 60px;
+}
+.pay-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pay-btn {
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2a54ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.white-one {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.white-two {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.bottop-top-account-two {
+    color: rgb(0, 0, 0,0.3);
+}
+.yesterday-text {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0,0.3);
+}
+.amazon-container {
+    width: 500px;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 8px;
+    background-color: #f3f6ff;
+    display: flex;
+    align-items: center;
+}
+.amazon-app-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+}
+.amazon-container-container {
+    display: flex;
+    justify-content:center;
+}
+.amazon-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.amazon-text {
+    font-size: 22px;
+    font-weight: 700;
+}
+.amazon-account {
+    color: rgb(0, 0, 0,0.3);
+}
+.amazon-pay-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.amazon-pay-text {
+    font-size: 25px;
+    font-weight: 700;
+}
+.amazon-pay-time {
+    font-weight: 200;
+    color: rgb(0, 0, 0,0.3);
+    margin-left: 55px;
+}
+.amazon-app i {
+    color: #7490ff;
+}
+.amazon-app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-two-two {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-three {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.bottop-top-payment-three {
+    color: rgb(0, 0, 0,0.3);
+}
+.analysis-bar-container {
+    display: flex;
+    justify-content: center;
+}
+.analysis-bar-one {
+    width: 5px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: #2a54ff;
+    margin-top: 80px;
+}
+.analysis-bar-two {
+    width: 5px;
+    height: 170px;
+    border-radius: 5px;
+    background-color: #2a54ff;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.analysis-bar-three {
+    width: 5px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #2a54ff;
+    margin-top: 110px;
+    margin-left: 90px;
+}
+.analysis-bar-four {
+    width: 5px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #2a54ff;
+    margin-top: 130px;
+    margin-left: 90px;
+}
+.analysis-bar-month {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+}
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.nice .fa-gear:hover {
+    animation: rotateCog 1s linear infinite;
+}
+@keyframes hidesplashscreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash-screen {
+    background-color: #f3f6ff;
+    position: absolute;
+    width: 640px;
+    height: 1200px;
+    border-radius: 50px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hidesplashscreen 0.3s ease-in-out forwards;
+    animation-delay: 2s;
+}
+.page-icon-x {
+    color: none;
+}
+.analysis-bar-one {
+    animation: stack 2s 1;
+}
+@keyframes stack {
+    0% {
+        opacity: 0%;
+        scale: 0%;
+    }
+    100% {
+        opacity: 100%;
+        scale: 100%;
+    }
+}
+.analysis-bar-two {
+    animation: stack 2s 1;
+}
+.analysis-bar-three {
+    animation: stack 2s 1;
+}
+.analysis-bar-four {
+    animation: stack 2s 1;
+}
