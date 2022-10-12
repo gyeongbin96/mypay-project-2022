@@ -1,14 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 .top-container {
     display: flex;
     justify-content: space-between;
     
 }
 .top-container i {
-    color: #2a54ff;
+    color: rgb(0, 0, 0,0.3);
     margin: 40px 40px;
 }
 .all-container {
@@ -20,7 +26,7 @@ a {
 .circle {
     width: 100px;
     height: 100px;
-    background-color: #2a54ff;
+    background-color: rgba(101, 101, 101, 0.3);
     border-radius: 50px;
     margin: 10px 60px;
 }
@@ -78,6 +84,8 @@ a {
 }
 .page-icon-blue {
     color: #f3f6ff;
+    margin-top: 50px;
+    margin-right: 25px;
 }
 .page-icon-pink {
     color: #f3f6ff;
@@ -87,7 +95,7 @@ a {
     width: 500px;
     height: 300px;
     border-radius: 30px;
-    background: linear-gradient(164deg, #2A54FF, #00DAFF, #001097);
+    background: linear-gradient(164deg, #2A54FF, #00DAFF);
     background-size: 600%, 600%;
     animation: GradientBackground 10s ease infinite;
     margin-top: 50px;
@@ -107,6 +115,19 @@ a {
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+.top-container .fa-bell:hover {
+    animation: bellanimation 0.3s infinite;
+}
+@keyframes bellanimation {
+    0%, 100% {transform: rotate(10deg);
+    }
+    10%, 90% {transform: rotate(-10deg);
+    }
+    40%, 90% {transform: rotate(10deg);
+    }
+    50% {transform: rotate(-10deg);
     }
 }
 .card-top {
@@ -214,7 +235,7 @@ a {
     width: 8px;
     height: 8px;
     border-radius: 15px;
-    background-color: #2b2b2b;
+    background-color: rgb(0, 0, 0,0.3);
 }
 .account-qr {
     display: flex;
@@ -237,7 +258,7 @@ a {
     width: 210px;
     height: 50px;
     border-radius: 15px;
-    background-color: #2a54ff;
+    background-color: #bfbfbf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,36 +415,38 @@ a {
 .analysis-bar-container {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
 }
 .analysis-bar-one {
+    transform-origin: bottom;
     width: 5px;
-    height: 130px;
+    height: 70px;
     border-radius: 5px;
     background-color: #2a54ff;
-    margin-top: 80px;
 }
 .analysis-bar-two {
+    transform-origin: bottom;
     width: 5px;
-    height: 170px;
+    height: 110px;
     border-radius: 5px;
     background-color: #2a54ff;
-    margin-top: 40px;
     margin-left: 90px;
 }
 .analysis-bar-three {
+    transform-origin: bottom;
     width: 5px;
     height: 100px;
     border-radius: 5px;
     background-color: #2a54ff;
-    margin-top: 110px;
     margin-left: 90px;
 }
 .analysis-bar-four {
+    transform-origin: bottom;
     width: 5px;
-    height: 80px;
+    height: 40px;
     border-radius: 5px;
     background-color: #2a54ff;
-    margin-top: 130px;
     margin-left: 90px;
 }
 .analysis-bar-month {
@@ -474,12 +497,10 @@ a {
 }
 @keyframes stack {
     0% {
-        opacity: 0%;
-        scale: 0%;
+        transform: scaleY(0%);
     }
     100% {
-        opacity: 100%;
-        scale: 100%;
+        transform: scaleY(100%);
     }
 }
 .analysis-bar-two {
